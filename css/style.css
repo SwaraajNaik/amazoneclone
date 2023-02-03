@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.flex-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer
+{
+    
+    color: aliceblue;
+    height: 10vh;
+    background-color: rgb(18, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    width: 100vw;
+}
+
+header
+{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    width: 100vw;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+        width: 100vw;
+
+}
+.logo img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 45px;
+    overflow: hidden;
+    padding: 0 25px;
+}
+nav ul{
+    height: 9vh;
+    align-items: center;
+    display: flex;
+    padding: 0 25px;
+}
+
+
+nav ul li{
+ 
+    list-style: none;
+     padding: 0 20px;
+
+}
+nav ul li a{
+
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    
+    
+}
+
+.search input
+{
+    width: 55vw;
+    height: 30px;
+    border-radius: 5px;
+    padding: 1px 1px 1px 10px;
+    box-shadow: 1px 1px 4px yellow ;
+    border: black 2px;
+}
+
+.nav2
+{
+    background-color: rgb(59, 61, 57);
+    display: flex;
+        align-items: center;
+            width: 100vw;
+}
+.nav2 ul {
+    height: 6vh;
+    align-items: center;
+    display: flex;
+    padding: 0 25px;
+}
+
+
+.nav2 ul li {
+
+    list-style: none;
+    padding: 0 20px;
+
+}
+
+.nav2 ul li a {
+
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: small;
+}
+.nav2 ul li a:hover
+{
+    font-weight: bold;
+    
+}
+
+.app
+{
+    display: flex;
+    float: right;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.container
+{
+    height: 22vh;
+    display: flex;
+    padding: 1.5vh;
+    width: 90vw;
+    justify-content: center;
+}
+
+.maincard
+{
+    width: 100vw;
+    height: 22vh;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 3px gray;
+    display: inline-grid;
+    text-align: center;
+    border-image: fill;
+    margin: 10px;
+  
+
+}
+
+.cardimage img
+{
+    height: 12vh;
+    width: 150px;
+
+}
+.maincard :hover
+{
+    background-color: azure;
+    zoom: 1.05;
+    cursor: pointer;
+}
+main{
+    display: block;
+    
+    
+}
+
+@media  and  {
+    
+}
